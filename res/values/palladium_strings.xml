@@ -35,4 +35,9 @@
     <!-- Search keywords -->
     <string name="keywords_notification_log">notifications, notification log</string>
 
+    <!-- Palladium OS Version -->
+    <string name="palladium_version">Palladium version</string>
+    <string name="palladium_version_default">Unknown</string>
+    <string name="keywords_palladium_version">Palladium version, palladium</string>
+
 </resources>
