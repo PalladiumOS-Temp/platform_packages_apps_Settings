@@ -25,6 +25,13 @@
     <string name="hidden_label">Hidden</string>
     <string name="long_label">Long</string>
 
+    <!-- Palladium Updater -->
+    <string name="update_settings_title">Palladium Updater</string>
+    <string name="update_settings_summary">Check for the latest version of the ROM</string>
+    <string name="update_package" translatable="false">org.lineageos.updater</string>
+    <string name="update_activity" translatable="false">org.lineageos.updater.UpdatesActivity</string>
+
+
     <!-- Volume link notification -->
     <string name="volume_link_notification_title">Link ring &amp; notification volumes</string>
 
