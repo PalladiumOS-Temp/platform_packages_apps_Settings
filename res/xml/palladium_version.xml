@@ -46,4 +46,12 @@
         settings:enableCopying="true"
         settings:controller="com.android.settings.deviceinfo.palladium.PalladiumBuildDatePreferenceController"/>
 
+    <!-- Palladium Device -->
+    <Preference
+        android:key="palladium_device"
+        android:title="@string/palladium_device"
+        android:summary="@string/summary_placeholder"
+        settings:enableCopying="true"
+        settings:controller="com.android.settings.deviceinfo.palladium.PalladiumDevicePreferenceController"/>        
+
 </PreferenceScreen>
