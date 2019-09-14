@@ -22,6 +22,12 @@
     android:title="@string/palladium_version"
     settings:keywords="@string/keywords_palladium_version">
 
+    <!-- Palladium Logo Header -->
+    <Preference 
+        android:key="palladium_logo"
+        android:order="-500"
+        android:layout="@layout/palladium_logo" />
+
     <!-- Palladium version -->
     <Preference
         android:key="palladium_version"
@@ -29,6 +35,14 @@
         android:summary="@string/summary_placeholder"
         settings:enableCopying="true"
         settings:controller="com.android.settings.deviceinfo.palladium.PalladiumVersionPreferenceController"/>
+
+    <!-- Palladium Device -->
+    <Preference
+        android:key="palladium_device"
+        android:title="@string/palladium_device"
+        android:summary="@string/summary_placeholder"
+        settings:enableCopying="true"
+        settings:controller="com.android.settings.deviceinfo.palladium.PalladiumDevicePreferenceController"/>     
 
     <!-- Palladium build type -->
     <Preference
@@ -44,14 +58,6 @@
         android:title="@string/palladium_build_date"
         android:summary="@string/summary_placeholder"
         settings:enableCopying="true"
-        settings:controller="com.android.settings.deviceinfo.palladium.PalladiumBuildDatePreferenceController"/>
-
-    <!-- Palladium Device -->
-    <Preference
-        android:key="palladium_device"
-        android:title="@string/palladium_device"
-        android:summary="@string/summary_placeholder"
-        settings:enableCopying="true"
-        settings:controller="com.android.settings.deviceinfo.palladium.PalladiumDevicePreferenceController"/>        
+        settings:controller="com.android.settings.deviceinfo.palladium.PalladiumBuildDatePreferenceController"/>   
 
 </PreferenceScreen>
