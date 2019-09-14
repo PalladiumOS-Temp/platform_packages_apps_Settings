@@ -39,5 +39,8 @@
     <string name="palladium_version">Palladium version</string>
     <string name="palladium_version_default">Unknown</string>
     <string name="keywords_palladium_version">Palladium version, palladium</string>
+    <string name="palladium_build_date">Build date</string>
+    <string name="palladium_build_default">Unknown</string>
+    <string name="keywords_build_date">Palladium build , build info</string>
 
 </resources>
