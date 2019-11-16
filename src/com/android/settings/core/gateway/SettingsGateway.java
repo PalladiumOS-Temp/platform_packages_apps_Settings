@@ -162,6 +162,7 @@ import com.android.settings.wifi.savedaccesspoints2.SavedAccessPointsWifiSetting
 import com.android.settings.wifi.tether.WifiTetherSettings;
 
 import com.palladium.atomichub.Atomichub;
+import com.palladium.atomichub.fragments.GamingMode;
 
 public class SettingsGateway {
 
@@ -312,7 +313,8 @@ public class SettingsGateway {
             InteractAcrossProfilesSettings.class.getName(),
             InteractAcrossProfilesDetails.class.getName(),
             MediaControlsSettings.class.getName(),
-            Atomichub.class.getName()
+            Atomichub.class.getName(),
+            GamingMode.class.getName()
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
@@ -353,5 +355,6 @@ public class SettingsGateway {
             Settings.ModuleLicensesActivity.class.getName(),
             UserBackupSettingsActivity.class.getName(),
             Settings.AtomicHubSettingsActivity.class.getName(),
+            Settings.GamingModeActivity.class.getName(),
     };
 }
