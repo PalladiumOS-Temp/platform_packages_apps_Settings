@@ -44,4 +44,7 @@
     <string name="palladium_build_type">Build status</string>
     <string name="palladium_device">Palladium device</string>
 
+
+    <!-- Palladium maintainer -->
+    <string name="maintainer">Maintainer</string>
 </resources>
