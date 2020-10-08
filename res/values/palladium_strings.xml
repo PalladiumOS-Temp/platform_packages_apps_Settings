@@ -43,6 +43,8 @@
     <string name="palladium_build_default">Unknown</string>
     <string name="palladium_build_type">Build status</string>
     <string name="palladium_device">Palladium device</string>
+    <string name="palladium_variant">Palladium variant</string>
+    <string name="palladium_build_variant_default">Unknown</string>
 
 
     <!-- Palladium maintainer -->
