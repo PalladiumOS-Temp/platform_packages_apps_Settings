@@ -57,4 +57,8 @@
     <string name="atomichub_settings_title">Atomichub</string>
     <string name="atomichub_settings_summary">Your one stop customization center </string>   
 
+    <!-- Back Gestures -->
+    <string name="smallest_tick_label">Off</string>
+    <string name="greatest_tick_label">Half screen</string>
+    <string name="gesture_back_deadzone_label">Dead zone</string>
 </resources>
