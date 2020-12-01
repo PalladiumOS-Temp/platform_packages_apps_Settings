@@ -244,4 +244,5 @@ public class Settings extends SettingsActivity {
     // Gaming mode
     public static class GamingModeActivity extends SettingsActivity {}
 
+    public static class HeadsUpSettingsActivity extends SettingsActivity { /* empty */ }
 }

@@ -163,6 +163,7 @@ import com.android.settings.wifi.tether.WifiTetherSettings;
 
 import com.palladium.atomichub.Atomichub;
 import com.palladium.atomichub.fragments.GamingMode;
+import com.palladium.atomichub.fragments.HeadsUpSettings;
 
 public class SettingsGateway {
 
@@ -314,7 +315,8 @@ public class SettingsGateway {
             InteractAcrossProfilesDetails.class.getName(),
             MediaControlsSettings.class.getName(),
             Atomichub.class.getName(),
-            GamingMode.class.getName()
+            GamingMode.class.getName(),
+            HeadsUpSettings.class.getName()
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
@@ -356,5 +358,6 @@ public class SettingsGateway {
             UserBackupSettingsActivity.class.getName(),
             Settings.AtomicHubSettingsActivity.class.getName(),
             Settings.GamingModeActivity.class.getName(),
+            Settings.HeadsUpSettingsActivity.class.getName(),
     };
 }

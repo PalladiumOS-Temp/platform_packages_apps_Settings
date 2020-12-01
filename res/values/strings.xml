@@ -12186,4 +12186,6 @@
 
     <!-- Summary for see all preference when bluetooth is disable [CHAR LIMIT=none]-->
     <string name="connected_device_see_all_summary">Bluetooth will turn on</string>
+
+    <string name="headsupsettings_title">Heads Up Settings</string>
 </resources>
