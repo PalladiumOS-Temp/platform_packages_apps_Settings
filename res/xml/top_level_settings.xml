@@ -40,6 +40,14 @@
         settings:controller="com.android.settings.connecteddevice.TopLevelConnectedDevicesPreferenceController"/>
 
     <Preference
+        android:key="top_level_atomichub_settings"
+        android:title="@string/atomichub_settings_title"
+        android:summary="@string/atomichub_settings_summary"
+        android:icon="@drawable/ic_dashboard_atomichub"
+        android:order="-105"
+        android:fragment="com.palladium.atomichub.Atomichub"/>
+
+    <Preference
         android:key="top_level_apps_and_notifs"
         android:title="@string/app_and_notification_dashboard_title"
         android:summary="@string/app_and_notification_dashboard_summary"

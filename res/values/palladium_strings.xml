@@ -53,4 +53,8 @@
     <!-- String for removal of sensitive info on about, depending on tap -->
     <string name="device_info_protected_single_press">Tap to show info</string>
     
+    <!-- Atomichub -->
+    <string name="atomichub_settings_title">Atomichub</string>
+    <string name="atomichub_settings_summary">Your one stop customization center </string>   
+
 </resources>
