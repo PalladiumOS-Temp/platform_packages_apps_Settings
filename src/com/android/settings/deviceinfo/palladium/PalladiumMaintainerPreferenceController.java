@@ -39,7 +39,7 @@ public class PalladiumMaintainerPreferenceController extends BasePreferenceContr
     }
 
     public CharSequence getSummary() {
-        String rom = "Unofficail Maintainer";
+        String rom = "Unofficial Maintainer";
         if(SystemProperties.get("ro.palladium.build.status").equals("OFFICIAL")){
             rom=SystemProperties.get(ROM_PROPERTY,
                 this.mContext.getString(R.string.device_info_default));
