@@ -46,7 +46,7 @@ public class MinRefreshRatePreferenceController extends BasePreferenceController
 
     @Override
     public int getAvailabilityStatus() {
-        return mContext.getResources().getBoolean(R.bool.config_show_min_refresh_rate_switch) &&
+        return mContext.getResources().getBoolean(R.bool.config_show_refresh_rate_controls) &&
                 mListPreference != null && mListPreference.getEntries().length > 1
                         ? AVAILABLE : UNSUPPORTED_ON_DEVICE;
     }
@@ -79,10 +79,8 @@ public class MinRefreshRatePreferenceController extends BasePreferenceController
 
     @Override
     public void updateState(Preference preference) {
-        final float defaultRefreshRate = (float) mContext.getResources().getInteger(
-                        com.android.internal.R.integer.config_defaultRefreshRate);
         final float currentValue = Settings.System.getFloat(mContext.getContentResolver(),
-                MIN_REFRESH_RATE, defaultRefreshRate);
+                MIN_REFRESH_RATE, 60.00f);
         int index = mListPreference.findIndexOfValue(
                 String.format(Locale.US, "%.02f", currentValue));
         if (index < 0) index = 0;
